@@ -1,0 +1,40 @@
+
+.mentors-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 200px;
+}
+
+.mentor {
+  max-width: 300px;
+  margin: 30px;
+  text-align: center;
+}
+
+.mentor p {
+  text-align: left;
+}
+
+.mentor-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1050px) {
+  .mentor {
+    margin: 30px;
+    text-align: center;
+  }
+
+  .mentors-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: 0;
+  }
+}

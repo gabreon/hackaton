@@ -1,0 +1,16 @@
+.section-middle-line {
+  margin: 0;
+  padding: 0;
+}
+
+.middle-line {
+  display: flex;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.middle-line img {
+  width: 1000px;
+}

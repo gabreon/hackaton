@@ -1,0 +1,14 @@
+.section-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 15px;
+  background-color: #00426B;
+}
+
+.section-footer p{
+  line-height: normal;
+  margin: 0;
+  color: white;
+}

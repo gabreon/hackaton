@@ -1,0 +1,17 @@
+.statute-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statute-btn {
+  border: 2px solid #CB7A09;
+  background-color: transparent;
+  color: #CB7A09;
+}
+
+.statute-btn:hover {
+  border: 2px solid #F59F26;
+  color: #F59F26;
+}
+

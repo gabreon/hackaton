@@ -1,0 +1,23 @@
+
+.section-subscription {
+  background-image: url('../../res/tech.png');
+  background-size: cover;
+}
+
+.subscription-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscription-btn {
+  border: 2px solid #00426B;
+  background-color: transparent;
+  color: #00426B;
+}
+
+.subscription-btn:hover {
+  border: 2px solid #11AEC7;
+  background-color: transparent;
+  color: #11AEC7;
+}

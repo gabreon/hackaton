@@ -1,0 +1,69 @@
+.home, .mentors, .partners, .about, .movement, .business-model, .challenges, .subscription, .statute, .faq {
+  position: relative;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.mix-products {
+  width: 100%;
+  max-width: 500px;
+}
+
+.section-challenges {
+  background-image: linear-gradient(#0D8295, #00426B);
+  color: white;
+}
+
+.section-challenges h1 {
+  color: #FFF400;
+}
+
+.round-image {
+  max-width: 320px;
+  border-radius: 25%;
+}
+
+.tech-img {
+  position: absolute;
+  max-width: 40%;
+  opacity: 0.6;
+  padding-top: 50px;
+}
+
+.img-box {
+  max-width: 40%;
+}
+
+.img-margin-right {
+  margin-right: 20px;
+}
+
+.img-margin-left {
+  margin-left: 20px;
+}
+
+.text-box {
+  max-width: 55%;
+}
+
+@media only screen and (max-width: 1050px) {
+  .home, .mentors, .partners, .about, .movement, .business-model, .challenges, .subscription, .statute, .faq {
+    padding: 0 40px;
+  }
+
+  .text-box {
+    max-width: 100%;
+  }
+
+  .img-box {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .round-image {
+    width: 100%;
+    border-radius: 25%;
+  }
+}
